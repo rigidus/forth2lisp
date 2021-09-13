@@ -1,0 +1,58 @@
+#+STARTUP: showall indent hidestars
+
+* Intro
+
+This is a project to create a miniature wearable computer that is based
+on widely available microcontrollers and has a portable operating system
+in a minimalist style.
+
+It is aimed at seasoned hackers who are familiar with Assembler, Forth and
+Lisp and who enjoy optimization tricks and limited hardware resources.
+
+Our main credo is not to use anything that we cannot invent and implement
+ourselves - this applies to compilers, libraries and virtual machines. We
+do this in order to understand all the details of the functioning of the
+system.
+
+We will also take care of portability so that any hacker can adapt the
+project to his printed circuit board, preferably one developed by
+himself.
+
+* Opportunities
+
+Can be used as
+- Notebook
+- voice recorder
+- external keyboard when working with PC (terminal)
+- music generator
+- game gadget
+
+** Hardware
+
+- USB
+- Screen
+- Keyboars
+- SD-card
+- GPIO-pins
+
+** Software
+
+- Forth as Hardware Abstraction Layer
+- Lisp as Interactive Environment
+- Memory Manager
+- Cooperative Multitasking
+- Realtime
+
+* Files
+
+- hard/ - PCB, BOM, etc
+- soft/ - source code
+  - boot/ - bootloader
+  - forth/ - basic forth machine
+  - lisp/ - our lisp realization
+
+* Links
+
+- JonesForth https://github.com/nornagon/jonesforth
+- (MOL) Make own Lisp https://github.com/kanaka/mal
+- ...
